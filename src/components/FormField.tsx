@@ -215,11 +215,7 @@ export const FormField: React.FC<FormFieldProps> = ({ field, value, onChange, da
         }
       })()}
 
-      {error && (
-        <p style={{ color: '#ef4444', fontSize: '12px', marginTop: '4px' }}>
-          {error.message}
-        </p>
-      )}
+      {/* TODO: Add error display when validation is implemented */}
     </div>
   );
 };
